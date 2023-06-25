@@ -7,7 +7,7 @@ import org.springframework.shell.standard.ShellOption;
 @ShellComponent
 public class MyCommands {
 
-	@ShellMethod(key = "hello-world")
+	@ShellMethod(key = "hello-world", value = "Display Hello world")
 	public String helloWorld(
 		@ShellOption(defaultValue = "spring") String arg
 	) {
