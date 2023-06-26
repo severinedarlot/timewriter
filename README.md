@@ -5,7 +5,8 @@ This is my timewriter
 
 # Prerequisite
 
-Brew on MacOs 
+## Nice to have
+Brew on MacOs  https://brew.sh
 
 
 ## Java 17
