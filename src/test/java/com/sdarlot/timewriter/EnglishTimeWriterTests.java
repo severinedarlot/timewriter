@@ -5,10 +5,8 @@ import org.junit.jupiter.api.Test;
 
 class EnglishTimeWriterTests {
 
-	private final EnglishTimeWriter timeWriter = new EnglishTimeWriter();
-
 	@Test
 	void writeNoon() {
-		assertEquals("Noon", timeWriter.write("12:00"), "12:00 should be written as Noon");
+		assertEquals("Noon", EnglishTimeWriter.write("12:00"), "12:00 should be written as Noon");
 	}
 }
