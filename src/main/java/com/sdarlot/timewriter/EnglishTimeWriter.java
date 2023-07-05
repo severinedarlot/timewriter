@@ -8,7 +8,12 @@ class EnglishTimeWriter {
     }
 
     private String writeTime(String string) {
-        return "Noon";
+        String[] time = string.split(":");
+        
+        if(time.length == 2) {
+            return time[0].equals("12") ? "Noon" : "Midnight";
+        }
+        throw new IllegalArgumentException();
     }
 
 }
