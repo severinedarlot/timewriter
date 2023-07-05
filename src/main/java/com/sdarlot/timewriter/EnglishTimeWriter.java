@@ -3,8 +3,7 @@ package com.sdarlot.timewriter;
 class EnglishTimeWriter {
 
     public static String write(String string) {
-        EnglishTimeWriter writer = new EnglishTimeWriter();
-        return writer.writeTime(string);
+        return new EnglishTimeWriter().writeTime(string);
     }
 
     private String writeTime(String string) {
